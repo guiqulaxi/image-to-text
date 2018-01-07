@@ -10,6 +10,7 @@ fn main() {
     let args: Vec<_> = env::args().collect();
     if args.len() < 2 {
         println!("usage: iamge_to_text filename max_length ");
+        return ;
     }
     let path = Path::new(&args[1]);
     if args.len() > 2 {
