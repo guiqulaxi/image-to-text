@@ -1,0 +1,8 @@
+[package]
+name = "image_to_text"
+version = "0.1.0"
+authors = ["guiqulaxi <935519890@qq.com>"]
+
+[dependencies]
+image = "0.18.0"
+imageproc = "0.13.0"
